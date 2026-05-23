@@ -1,0 +1,6 @@
+interface:
+  display_name: "New Year Fortune"
+  short_description: "生成新年签运卡片与祝福视频"
+  default_prompt: "Use $new-year-fortune to create a personalized 2026 Horse Year fortune card and optional narrated video."
+policy:
+  allow_implicit_invocation: true
