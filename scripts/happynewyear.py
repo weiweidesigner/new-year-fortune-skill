@@ -128,7 +128,7 @@ BASE_URL = os.getenv("ARK_BASE_URL", "https://ark.cn-beijing.volces.com/api/v3")
 
 OPEN_SPEECH_TTS_URL = "https://openspeech.bytedance.com/api/v3/tts/unidirectional"
 OPEN_SPEECH_RESOURCE_ID = os.getenv("OPEN_SPEECH_RESOURCE_ID", "volc.service_type.10029")
-TTS_SPEAKER = os.getenv("OPEN_SPEECH_TTS_SPEAKER", "zh_female_gaolengyujie_emo_v2_mars_bigtts")
+TTS_SPEAKER = os.getenv("OPEN_SPEECH_TTS_SPEAKER", "zh_male_cixingjieshuonan_uranus_bigtts")
 # 豆包语音大模型 2.0 / OpenSpeech TTS 模型名，可通过环境变量覆盖。
 # 不同账号开通的模型名可能不同；为空时走资源/音色默认模型。
 OPEN_SPEECH_TTS_MODEL = os.getenv("OPEN_SPEECH_TTS_MODEL", "")
